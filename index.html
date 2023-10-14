@@ -72,7 +72,22 @@
 											user's preferences and communication with the AI - <a href=" https://ai.meta.com/llama/#resources">LLaMa 2 - Meta</a><br>
 											Using pip install replicate and os and a use of a replicate API key found here: <a href=" https://replicate.com/">Replicate</a>
 								</p>
+								<h3><a href="https://github.com/AlPokorskiy/Web_Scraper">HTML To JSONL Converter</a></h3>
+								<p>
+									This is a simple HTML web scraper which takes an html file and proceeds to scrap of all the "span" section of a webpage. <br/>
+										- The conversion is done for JSONL files that then can be used for fine-tunning OpenAI as datasets
+										- This projects has 2 options for where the info was picked and what the main tag was in order to make the JSONL Prompts
+									Prompt:<br/> {"role": "system","content": f"You are a helpful and chatbot, and you are great at writing (Page selected) posts."},<br/> {"role": "user","content": f"Please create a post for (Tag selected) for (Page selected)"},<br/>{"role": "assistant", "content": post}]
 
+									Instructions: <br/>
+        							"1. Go to the desired LinkedIn or any other post page"<br/>
+									"2. Right click on the webpage and click Save-as "<br/>
+									"3. Save it somewhere where you can find that file such "<br/>
+									"    as C:\\Users\\username\\Downloads or C:\Temp"<br/>
+									"4. Finally quickly browse for the file and select it here"<br/>
+									"5. Finally once the process is done you can save the file as "<br/>
+									"	a JSONL formatted file and utilize it as needed"<br/>
+								</p>
 								<h3><a href="https://github.com/AlPokorskiy/Weather_API">Weather API</a></h3>
 								<p>
 									A weather API built using Python, tkinter library, and Openweather API tool. tkinter is used to create an interactive GUI, it takes in an API key and city, and displays the chosen data in text. 
